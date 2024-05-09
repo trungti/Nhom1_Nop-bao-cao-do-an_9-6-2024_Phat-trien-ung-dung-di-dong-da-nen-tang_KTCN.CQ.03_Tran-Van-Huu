@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1079163993080",
+    "project_id": "du-an-mon-da-nen-tang",
+    "storage_bucket": "du-an-mon-da-nen-tang.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079163993080:android:a9ac83fc8d43f8896af40d",
+        "android_client_info": {
+          "package_name": "com.ktgk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsoiSjhsj-x4KpSK5XFWw91fUy9fFE1xo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
