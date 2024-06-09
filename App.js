@@ -1,19 +1,17 @@
 import React,{useEffect} from "react";
-import firestore from"@react-native-firebase/firestore";
-import { useMyContextController } from "./store";
 
-//import { NativeModules, StyleSheet } from "react-native";
 import { MyContextControllerProvider } from "./store/index";
-//import { BottomNavigation } from "react-native-paper";
+
 import{NavigationContainer} from"@react-navigation/native";
-import auth from"@react-native-firebase/auth";
-import Login from "./screens/Login";
-import RouterService from "./routers/RouterService";
+
+import DieuHuongQuyen from "./routers/DieuHuongQuyen";
+import ThemNguoiDung from "./screens/ThemNguoiDung";
 const App=()=>{
     return(
         <MyContextControllerProvider>
             <NavigationContainer>
-                <RouterService/>
+                <DieuHuongQuyen/>
+                {/* <ThemNguoiDung/> */}
             </NavigationContainer>
         </MyContextControllerProvider>
     )
